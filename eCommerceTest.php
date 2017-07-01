@@ -45,5 +45,6 @@ class eCommerceTest extends TestCase
         print("\n\nRemove 1 apple product");
         $JohnDoe->cart->removeProduct($apple_product, 1);
         print("\nTotal price: $".number_format($JohnDoe->cart->getTotalPrice(), 2));
+        print("2");
     }
 }
